@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cuidados Femininos</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo"><img src="amardivaslogo.jfif"/> </div>
+            <ul class="nav-links">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        
+        <div class="hero-carousel">
+            <div class="hero-slide">
+                <img src="slide1.jpg" alt="Slide 1">
+            </div>
+            <div class="hero-slide">
+                <img src="slide2.jpg" alt="Slide 2">
+            </div>
+            <div class="hero-slide">
+                <img src="slide3.jpg" alt="Slide 3">
+            </div>
+            <div class="hero-slide">
+                <img src="slide4.jpg" alt="Slide 4">
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1>Cuidados Especiais para Você</h1>
+            <p>Descubra nossa linha de produtos dedicada a realçar a sua beleza e bem-estar.</p>
+            <a href="#" class="btn">Explorar</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Produtos de Qualidade</h2>
+            <p>Nossos produtos são cuidadosamente selecionados para proporcionar os melhores resultados.</p>
+        </div>
+        <div class="feature">
+            <h2>Dicas e Truques</h2>
+            <p>Confira nosso blog para dicas de beleza, saúde e bem-estar.</p>
+        </div>
+        <div class="feature">
+            <h2>Atendimento Personalizado</h2>
+            <p>Nossa equipe está pronta para atender suas necessidades individuais.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Amar Divas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+<script>
+    $(document).ready(function(){
+        $('.hero-carousel').slick({
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            prevArrow: false,
+            nextArrow: false
+        });
+    });
+</script>
+</html>

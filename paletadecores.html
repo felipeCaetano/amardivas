@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Cores RGB</title>
+    <style>
+        body {
+            background: #d1d1ff;
+        }
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 50; /* Para centralizar verticalmente */
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 900px;
+            height: 480px;
+            padding: 50;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Ajustes para a primeira linha */
+        tr:first-child td {
+            vertical-align: bottom; /* Alinhar o conteúdo no topo da célula */
+            height: 8em; /* Altura de 4 linhas */
+            text-align: left; /* Alinhamento à esquerda */
+        }
+    </style>
+</head>
+<body>
+    <img src="tabeladecores.png">
+    <h1>Cores Secundárias (Web)</h1>
+    <table>
+        <tr>
+            <td style="background-color: #adadab; color: white;">#adadab</td>
+            <td style="background-color: #0a241c; color: white;">#0a241c</td>
+            <td style="background-color: #7b3b31; color: white;">#7b3b31</td>
+            <td style="background-color: #b58400; color: white;">#b58400</td>
+        </tr>
+        <tr>
+            <td style="background-color: #666665; color: white;">#666665</td>
+            <td style="background-color: #227957; color: white;">#227957</td>
+            <td style="background-color: #57aeda; color: white;">#57aeda</td>
+            <td style="background-color: #805d00; color: white;">#805d00</td>
+        </tr>
+        <tr>
+            <td style="background-color: #333332; color: white;">#333332</td>
+            <td style="background-color: #009aeb; color: white;">#009aeb</td>
+            <td style="background-color: #83bdda; color: white;">#83bdda</td>
+            <td style="background-color: #664a00; color: white;">#664a00</td>
+        </tr>
+    </table>
+</body>
+</html>
