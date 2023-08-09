@@ -5,23 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela de Cores RGB</title>
     <style>
+       @import url('https://fonts.googleapis.com/css2?family=Fauna+One&display=swap');
+
         body {
             background: #d1d1ff;
-        }
-        h1 {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            min-height: 50; /* Para centralizar verticalmente */
+            justify-content: center;
+            height: 100vh;
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Fauna One', sans-serif;
+            color: #227957;
+            scroll-behavior: auto;
+        }
+        
+        img {
+            max-width: 100%;
+            height: ;
+            margin: 10px 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 10px 0;
         }
 
         table {
-            width: 900px;
-            height: 480px;
-            padding: 50;
+            width: 80%;
+            max-width: 1150px;
             border-collapse: collapse;
+            margin-top: 20px;
         }
 
         th, td {
@@ -44,25 +58,46 @@
 </head>
 <body>
     <img src="tabeladecores.png">
-    <h1>Cores Secundárias (Web)</h1>
+    <h2>CORES SECUNDÁRIAS (Fornecidas)</h2>
     <table>
         <tr>
             <td style="background-color: #adadab; color: white;">#adadab</td>
             <td style="background-color: #0a241c; color: white;">#0a241c</td>
             <td style="background-color: #7b3b31; color: white;">#7b3b31</td>
-            <td style="background-color: #b58400; color: white;">#b58400</td>
+            <td style="background-color: #5a36f1; color: white;">#5a36f1</td>
         </tr>
         <tr>
             <td style="background-color: #666665; color: white;">#666665</td>
             <td style="background-color: #227957; color: white;">#227957</td>
             <td style="background-color: #57aeda; color: white;">#57aeda</td>
-            <td style="background-color: #805d00; color: white;">#805d00</td>
+            <td style="background-color: #9288fd; color: white;">#9288fd</td>
         </tr>
         <tr>
             <td style="background-color: #333332; color: white;">#333332</td>
             <td style="background-color: #009aeb; color: white;">#009aeb</td>
             <td style="background-color: #83bdda; color: white;">#83bdda</td>
             <td style="background-color: #664a00; color: white;">#664a00</td>
+        </tr>
+    </table>
+    <h2>CORES SECUNDÁRIAS (Corrigidas)</h2>
+    <table>
+        <tr>
+            <td style="background-color: #adadab; color: white;">#adadab</td>
+            <td style="background-color: #0a241c; color: white;">#0a241c</td>
+            <td style="background-color: #7b3b31; color: white;">#7b3b31</td>
+            <td style="background-color: #5a36f1; color: white;">#5a36f1</td>
+        </tr>
+        <tr>
+            <td style="background-color: #666665; color: white;">#666665</td>
+            <td style="background-color: #227957; color: white;">#227957</td>
+            <td style="background-color: #d08b67; color: white;">#d08b67</td>
+            <td style="background-color: #9288fd; color: white;">#9288fd</td>
+        </tr>
+        <tr>
+            <td style="background-color: #000; color: white;">#000</td>
+            <td style="background-color: #b6e4cb; color: white;">#b6e4cb</td>
+            <td style="background-color: #f5eadf; color: white;">#f5eadf</td>
+            <td style="background-color: #b6b3ff; color: white;">#b6b3ff</td>
         </tr>
     </table>
 </body>
