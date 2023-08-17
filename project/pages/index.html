@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Responsivo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+
+            /* text-align: center; */
+            padding: 20px;
+        }
+
+        .logo {
+            width: 150px;
+        }
+
+        .step {
+            border-top: 1px solid #e0e0e0;
+            margin-top: 10px;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        .background-image {
+            background-image: url(../images/Fundo.png);
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+        }
+
+        .footer {
+            background-color: #242329;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-logo {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+        .rounded-input {
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 70%;
+        }
+
+        .subscribe-button {
+            margin-top: 10px;
+        }
+
+        .round-buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .round-button {
+            background-color: #ff0000;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 10px;
+            margin-bottom: 10px;
+        }
+
+        .round-button img {
+            max-width: 60px;
+            max-height: 60px;
+            margin: auto;
+            display: block;
+        }
+
+        .text-section {
+            margin-top: 20px;
+            color: white;
+        }
+
+        .circle-logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 20px auto;
+        }
+
+        .subscribe-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="../images/logo preferencial horizontal- transparente.png" alt="Logo" class="logo">
+    </div>
+    <div class="background-image">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <section>
+                        <div class="round-button">
+                            <img src="path/to/button1.png" alt="Button 1">
+                        </div>
+                        <div class="round-button">
+                            <img src="path/to/button2.png" alt="Button 2">
+                        </div>
+                        <div class="round-button">
+                            <img src="path/to/button3.png" alt="Button 3">
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-md-4">
+                    <section class="text-section">
+                        <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 25px;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget nisl ut libero feugiat
+                            posuere. Nulla facilisi.</p>
+                    </section>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="circle-logo">
+                        <img src="path/to/circle-logo.png" alt="Circle Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <img src="../images/logo com tagline- transparente.png" alt="Footer Logo" class="footer-logo">
+        <input type="text" class="rounded-input" placeholder="Seu e-mail">
+        <button class="subscribe-button">Inscreva-se</button>
+        <div class="subscribe-section">
+            <button class="btn btn-primary">Inscreva-se</button>
+        </div>
+    </footer>
+</body>
+
+</html>
