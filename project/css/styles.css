@@ -9,10 +9,12 @@ body {
 
 .colored-word {
     color: #ba5c3f;
+    /* Cor vermelha */
 }
 
 .header {
     background-color: #1d664b;
+    /* text-align: center; */
     padding: 0px;
 }
 
@@ -37,10 +39,12 @@ body {
 
 .background-image .container {
     max-width: 90%;
+    /* Defina a largura máxima para 100% */
 }
 
 .footer {
     background-color: #333332;
+    /*padding: 10px 10px;*/
     margin-top: 0px;
     text-align: left;
     height: 25vh;
@@ -62,6 +66,7 @@ body {
     width: 100%;
     top: 69px;
     color: #ccc;
+    /* Adicionei a cor do texto */
 }
 
 .rounded-input::placeholder {
@@ -124,7 +129,7 @@ body {
     background-color: #1d664b;
     color: #d1d1ff;
     border: none;
-    margin-left: 150px;
+    margin-top: 20px;
     font-size: 3.001464128843338vw;
     font-family: Noto Sans, sans-serif;
 }
