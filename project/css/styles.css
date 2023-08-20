@@ -7,27 +7,9 @@ body {
     margin: auto;
 }
 
-.colored-word {
-    color: #ba5c3f;
-    /* Cor vermelha */
-}
-
 .header {
     background-color: #1d664b;
-    /* text-align: center; */
     padding: 0px;
-}
-
-.logo {
-    width: 22.620790629575403vw;
-    height: 14.566284779050736vh;
-}
-
-.step {
-    border-top: 1px solid #ffe0e0;
-    margin-top: 0px;
-    padding-top: 10px;
-    text-align: center;
 }
 
 .background-image {
@@ -39,61 +21,14 @@ body {
 
 .background-image .container {
     max-width: 90%;
-    /* Defina a largura máxima para 100% */
 }
 
-.footer {
-    background-color: #333332;
-    /*padding: 10px 10px;*/
-    margin-top: 0px;
-    text-align: left;
-    height: 25vh;
-}
-
-.footer-logo {
-    width: 120px;
-    margin-bottom: 85px;
-    margin-top: 0px;
-    padding: 2px;
-}
-
-.rounded-input {
-    background-color: #242329;
-    border-radius: 15px;
-    border: 1px solid #ccc;
-    padding: 8px;
-    max-width: 350px;
-    width: 100%;
-    top: 69px;
-    color: #ccc;
-    /* Adicionei a cor do texto */
-}
-
-.rounded-input::placeholder {
-    color: #ccc;
-}
-
-.subscribe-button {
-    max-height: 50px;
-    max-width: 175px;
-    width: 100%;
-    border-radius: 20px;
-    background-color: #d1d1ff;
-    color: #d08b67;
-    border: none;
-    margin-left: 50px;
-    padding: 5px 15px;
-}
-
-.round-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+.logo {
+    width: 22.620790629575403vw;
+    height: 14.566284779050736vh;
 }
 
 .round-button {
-
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -109,16 +44,9 @@ body {
     display: block;
 }
 
-.text-section {
-    margin-top: 52px;
-    color: white;
-    font-family: "Noto Sans", sans-serif;
-    font-size: larger;
-}
-
-.circle-logo {
-    max-width: 25.256222547584187vw;
-    max-height: 25.256222547584187vh;
+.colored-word {
+    color: #ba5c3f;
+    /* Cor vermelha */
 }
 
 .text-subscribe-button {
@@ -132,6 +60,77 @@ body {
     margin-top: 20px;
     font-size: 3.001464128843338vw;
     font-family: Noto Sans, sans-serif;
+}
+
+.circle-logo {
+    max-width: 25.256222547584187vw;
+    max-height: 25.256222547584187vh;
+}
+
+.step {
+    border-top: 1px solid #ffe0e0;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #333332;
+    padding: 10px 10px;
+    margin-top: 0px;
+    text-align: left;
+    height: 35vh;
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 115px;
+    margin-top: 0px;
+    padding: 1px;
+}
+
+.rounded-input {
+    background-color: #242329;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    max-width: 350px;
+    width: 100%;
+    top: 69px;
+    color: #ccc;
+}
+
+.rounded-input::placeholder {
+    color: #ccc;
+}
+
+.subscribe-button {
+    max-height: 50px;
+    max-width: 175px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #d1d1ff;
+    color: #d08b67;
+    border: none;
+    margin-left: 390px;
+    padding: 8px 29px;
+    position: relative;
+    bottom: 35px;
+}
+
+.round-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-section {
+    margin-top: 52px;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: larger;
 }
 
 .footer-round-button img {
@@ -158,5 +157,6 @@ body {
 footer .direitos {
     text-align: center;
     margin-top: 2px;
-    font-size: 10px;
+    font-size: 13px;
+    color: #ccc;
 }
