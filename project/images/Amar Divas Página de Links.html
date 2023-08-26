@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Noto+Sans:wght@500&display=swap');
+    </style>
+    <title>Amar Divas: Página de Links</title>
+    
+    
+<link rel="stylesheet" href="Amar%20Divas%20P%C3%A1gina%20de%20Links_arquivos/styles.css"><link rel="stylesheet" href="Amar%20Divas%20P%C3%A1gina%20de%20Links_arquivos/linkstyles.css"></head>
+
+<body>
+    <div class="container">
+        <img src="Amar%20Divas%20P%C3%A1gina%20de%20Links_arquivos/cornerimage.jpg" alt="Imagem" class="corner-image">
+    </div>
+    <header>
+        <img src="Amar%20Divas%20P%C3%A1gina%20de%20Links_arquivos/selo-emblema2.png" alt="Logo" class="logo">
+        <h1>Amar Divas</h1>
+        <h3>Confira nossos Links</h3>
+    </header>
+   
+    <section>
+        <ul role="list">
+            <li>
+                <a href="https://chat.whatsapp.com/BrOMyv4ZNdJKe6cG9F5BUZ">
+                    <button class="text-subscribe-button-XL">Inscreva-se no Grupo<br>Vôo das Borboletas</button>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <button class="text-subscribe-button">Facebook</button>
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.me/558391415318">
+                    <button class="text-subscribe-button">Whattsapp</button>
+                </a>
+            </li>
+            <li><button class="text-subscribe-button">Instagram</button></li>
+            <li><button class="text-subscribe-button">Nosso Site</button></li>
+        </ul>
+    </section>
+    <div class="container">
+        <img src="Amar%20Divas%20P%C3%A1gina%20de%20Links_arquivos/cornerimage2.jpg" alt="Imagem" class="corner-image2">
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

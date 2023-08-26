@@ -1,0 +1,162 @@
+html,
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: "Noto Sans", sans-serif;
+    padding: 0;
+    margin: auto;
+}
+
+.header {
+    background-color: #1d664b;
+    padding: 0px;
+}
+
+.background-image {
+    background-image: url(../images/Fundo.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.background-image .container {
+    max-width: 90%;
+}
+
+.logo {
+    width: 22.620790629575403vw;
+    height: 14.566284779050736vh;
+}
+
+.round-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 0px;
+    margin-bottom: 10px;
+}
+
+.round-button img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+.colored-word {
+    color: #ba5c3f;
+    /* Cor vermelha */
+}
+
+.text-subscribe-button {
+    max-height: 9.819967266775777vh;
+    max-width: 30.307467057101025vw;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #1d664b;
+    color: #d1d1ff;
+    border: none;
+    margin-top: 20px;
+    font-size: 3.001464128843338vw;
+    font-family: Noto Sans, sans-serif;
+}
+
+.circle-logo {
+    max-width: 25.256222547584187vw;
+    max-height: 25.256222547584187vh;
+}
+
+.step {
+    border-top: 1px solid #ffe0e0;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #333332;
+    padding: 10px 10px;
+    margin-top: 0px;
+    text-align: left;
+    height: 35vh;
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 115px;
+    margin-top: 0px;
+    padding: 1px;
+}
+
+.rounded-input {
+    background-color: #242329;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    max-width: 350px;
+    width: 100%;
+    top: 69px;
+    color: #ccc;
+}
+
+.rounded-input::placeholder {
+    color: #ccc;
+}
+
+.subscribe-button {
+    max-height: 50px;
+    max-width: 175px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #d1d1ff;
+    color: #d08b67;
+    border: none;
+    margin-left: 390px;
+    padding: 8px 29px;
+    position: relative;
+    bottom: 35px;
+}
+
+.round-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-section {
+    margin-top: 52px;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: larger;
+}
+
+.footer-round-button img {
+    max-width: 35px;
+    max-height: 35px;
+    margin: auto;
+    display: block;
+}
+
+.subscribe-section {
+    margin-top: 0px;
+    color: #ccc;
+    padding: 0px 10px 00px 50px;
+    font-size: 12px;
+}
+
+.redes-sociais {
+    margin-top: 0px;
+    color: #ccc;
+    padding: 0px 0px;
+    font-size: 12px;
+}
+
+footer .direitos {
+    text-align: center;
+    margin-top: 2px;
+    font-size: 13px;
+    color: #ccc;
+}
