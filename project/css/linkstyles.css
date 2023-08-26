@@ -10,6 +10,11 @@ body{
     font-size: larger;
 }
 
+header {
+    margin: -380px 0px; /* Ajuste as margens conforme necessário */
+    margin-bottom: auto;
+}
+
 .logo {
     width: 20.620790629575403vw;
     height: 30.566284779050736vh;
@@ -21,6 +26,7 @@ body{
     width: auto;
     height: auto;
     overflow: hidden;
+    margin-bottom: 0px;
 }
 
 .corner-image {
@@ -37,6 +43,7 @@ body{
     width: fit-content;
     height: auto;
     overflow: hidden;
+    margin-top: -480px;
 }
 
 .corner-image2 {
@@ -50,6 +57,7 @@ body{
 
 ul {
     list-style-type: none;
+    margin-bottom: auto;
   }
 
 .text-subscribe-button {
