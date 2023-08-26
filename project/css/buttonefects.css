@@ -1,0 +1,56 @@
+/* Efeito de Sombra ao Passar o Mouse (Hover) */
+.text-subscribe-button-XL,
+.text-subscribe-button {
+    /* Seus estilos atuais */
+    background-color: #f5eadf;
+    color: #d08b67;
+    border: none;
+    margin-top: 20px;
+    font-size: 3.001464128843338vw;
+    font-family: 'Noto Sans', sans-serif;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.text-subscribe-button-XL:hover,
+.text-subscribe-button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona sombra ao passar o mouse */
+}
+
+/* Efeito de Gradiente ao Passar o Mouse (Hover) */
+.text-subscribe-button-XL,
+.text-subscribe-button {
+    /* Seus estilos atuais */
+    background-color: #f5eadf;
+    color: #d08b67;
+    border: none;
+    margin-top: 20px;
+    font-size: 3.001464128843338vw;
+    font-family: 'Noto Sans', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.text-subscribe-button-XL:hover,
+.text-subscribe-button:hover {
+    background-image: linear-gradient(to bottom, #f5eadf, #e6d1b9); /* Adiciona um gradiente ao passar o mouse */
+}
+
+/* Efeito de Crescimento ao Passar o Mouse (Hover) */
+.text-subscribe-button-XL,
+.text-subscribe-button {
+    /* Seus estilos atuais */
+    background-color: #f5eadf;
+    color: #d08b67;
+    border: none;
+    margin-top: 20px;
+    font-size: 3.001464128843338vw;
+    font-family: 'Noto Sans', sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.text-subscribe-button-XL:hover,
+.text-subscribe-button:hover {
+    transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+}

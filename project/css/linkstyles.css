@@ -7,21 +7,33 @@ body{
     font-family: "Noto Sans", sans-serif;
     margin: 0;
     padding: 0;
-    font-size: larger;
+    font-size: 32px;
 }
 
 header {
-    margin: -380px 0px; /* Ajuste as margens conforme necessário */
+    max-width: 100%;
+    margin: -60vh 0px; /* Ajuste as margens conforme necessário */
     margin-bottom: auto;
 }
 
+h1{
+    font-size: larger;
+    margin-bottom: auto;
+}
+
+h3{
+    margin-top: auto;
+}
+
 .logo {
-    width: 20.620790629575403vw;
-    height: 30.566284779050736vh;
+    max-height: 100%;
+    width: auto;
+    height: 40vh;
    
 }
 
 .container {
+    max-width: 100%;
     position: relative;
     width: auto;
     height: auto;
@@ -35,15 +47,16 @@ header {
     right: 0;
      /* Para centralizar verticalmente */
      transform-origin: right;
-    transform:  translate(99.819967266775777vh, -50vh)rotate(5deg);
+    transform:  translate(30vw, -5vh)rotate(90deg);
 }
 
 .container2 {
-    position: absolute;
+    max-width: 100%;
+    position: relative;
     width: fit-content;
     height: auto;
     overflow: hidden;
-    margin-top: -480px;
+    margin-top: -80px;
 }
 
 .corner-image2 {
@@ -61,24 +74,41 @@ ul {
   }
 
 .text-subscribe-button {
+    /*align-self: center;*/
+    max-width: 50%;
     background-color: #f5eadf;
     color: #d08b67;
     border: none;
-    margin-top: 20px;
-    font-size: 3.001464128843338vw;
+    margin-top: 4vh;
+    font-size:100%;
     cursor: pointer;
   }
 
 .text-subscribe-button-XL{
+    max-width: 50%;
     max-height: 17.819967266775777vh;
-    max-width: 38.307467057101025vw;
+    /*max-width: 38.307467057101025vw;*/
     width: 100%;
     border-radius: 20px;
     background-color: #f5eadf;
     color: #d08b67;
     border: none;
     margin-top: 20px;
-    font-size: 3.001464128843338vw;
+    font-size: 100%;
     font-family: Noto Sans, sans-serif;
     cursor: pointer;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    body {
+        font-size: 28px;
+    }
+    .logo{
+        width: 200px;
+        height: fit-content;
+        margin-top: 4vh;
+    }
+    /* Outras alterações de estilo */
+    
 }
