@@ -160,3 +160,20 @@ footer .direitos {
     font-size: 13px;
     color: #ccc;
 }
+
+@media (max-width: 800px) {
+    .background-image {
+        background-image: url(../images/Fundo-Mobile.png);
+        background-size: 100% auto;
+    }
+
+    .circle-logo {
+        max-width: 130px;
+        max-height: 130px;
+    }
+
+    .logo {
+        width: 290px;
+        height: 89px;
+    }
+}
