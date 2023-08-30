@@ -29,7 +29,6 @@ h3{
     max-height: 100%;
     width: auto;
     height: 40vh;
-   
 }
 
 .container {
@@ -101,13 +100,21 @@ ul {
 }
 
 /* Media query para telas menores */
-@media (max-width: 480px) {
+@media (max-width: 660px) {
     body {
         font-size: 22px;
     }
+
+    
+    header {
+        max-width: 100%;
+        margin: 0vh 5vh; /* Ajuste as margens conforme necessário */
+        margin-bottom: auto;
+    }
+
     .logo{
-        width: 200px;
-        height: fit-content;
+        width: 180px;
+        height: 180px;
         margin-top: 4vh;
     }
     /* Outras alterações de estilo */
@@ -124,39 +131,21 @@ ul {
         cursor: pointer;
       }
     
-
     .container {
-        max-width: 80%;
-        position: relative;
-        width: auto;
-        height: auto;
-        overflow: hidden;
-        margin-bottom: 0px;
+        max-width: 100%;
     }
 
     .corner-image {
-        position: relative;
-        top: 0;
-        right: 0;
-         /* Para centralizar verticalmente */
-         transform-origin: right;
-        transform:  translate(30vw, -5vh)rotate(90deg);
+        position: fixed; 
+        right: -10%;
     }
     
     .container2 {
-        max-width: 50%;
-        position: relative;
-        width: fit-content;
-        height: auto;
-        overflow: hidden;
-        margin-top: -100px;
+        max-width: 100%;
     }
 
     .corner-image2 {
-        position: relative;
-        width: 100%;
-         /* Para centralizar verticalmente */
-         transform-origin: left;
-        transform: translate(100%, 80%) rotate(40deg);
+        position: fixed;
+        top: 45%
     }
 }

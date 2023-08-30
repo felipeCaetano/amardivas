@@ -120,10 +120,7 @@ body {
 }
 
 .round-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    content: none;
 }
 
 .text-section {
@@ -173,7 +170,45 @@ footer .direitos {
     }
 
     .logo {
-        width: 290px;
-        height: 89px;
+        width: 250px;
+        height: 90px;
+    }
+
+    .round-buttons {
+        position: absolute;
+        display: inline;
+        left: 10px;
+        margin-left: 0px;
+        /*padding: 20px 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;*/
+    }
+
+    .text-section{
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        width: 220px;
+        border: 3px solid #73AD21;
+        padding: 5px;
+        font-size: medium;
+        margin-top: 0px;
+    }
+
+    .text-subscribe-button{
+        position: relative;
+        left: 0px;
+        top: 350px;
+
+        max-height: 15vh;
+        max-width: 150vw;
+        width: 100%;
+        border-radius: 20px;
+        background-color: #1d664b;
+        color: #d1d1ff;
+        border: none;
+        margin-top: 20px;
+        font-size: larger;
+        font-family: Noto Sans, sans-serif;
     }
 }
