@@ -46,7 +46,7 @@ h3{
     right: 0;
      /* Para centralizar verticalmente */
      transform-origin: right;
-    transform:  translate(30vw, -5vh)rotate(90deg);
+    transform: translate(30vw, -5vh) rotate(90deg);
 }
 
 .container2 {
@@ -64,7 +64,7 @@ h3{
     right: 0;
      /* Para centralizar verticalmente */
      transform-origin: left;
-    transform:  translate(-40%, 0%)rotate(40deg);
+    transform:  translate(-40%, 0%) rotate(40deg);
 }
 
 ul {
@@ -100,21 +100,13 @@ ul {
 }
 
 /* Media query para telas menores */
-@media (max-width: 660px) {
+@media (max-width: 480px) {
     body {
         font-size: 22px;
     }
-
-    
-    header {
-        max-width: 100%;
-        margin: 0vh 5vh; /* Ajuste as margens conforme necessário */
-        margin-bottom: auto;
-    }
-
     .logo{
-        width: 180px;
-        height: 180px;
+        width: 200px;
+        height: fit-content;
         margin-top: 4vh;
     }
     /* Outras alterações de estilo */
@@ -132,12 +124,21 @@ ul {
       }
     
     .container {
-        max-width: 100%;
+        max-width: 80%;
+        position: relative;
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 0px;
     }
 
     .corner-image {
-        position: fixed; 
-        right: -10%;
+        position: relative;
+        top: 0;
+        right: 0;
+         /* Para centralizar verticalmente */
+         transform-origin: right;
+        transform:  translate(30vw, -5vh)rotate(90deg);
     }
     
     .container2 {
