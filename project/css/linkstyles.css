@@ -100,23 +100,36 @@ ul {
 }
 
 /* Media query para telas menores */
-@media (max-width: 660px) {
+@media (max-width: 400px) {
     body {
-        font-size: 22px;
+        font-size: 1rem;
     }
 
-    
+    .container {
+        max-width: 85%;
+        margin: 0 auto;
+        border: #ad215e 2px solid;
+    }
+    .content{
+        margin: 1.5625% 0;
+    }
+
     header {
         max-width: 100%;
         margin: 0vh 5vh; /* Ajuste as margens conforme necessário */
-        margin-bottom: auto;
+    }
+
+    h1 {
+        font-size: 2rem;
     }
 
     .logo{
         width: 180px;
         height: 180px;
         margin-top: 4vh;
+        border: #ad215e 2px solid;
     }
+    
     /* Outras alterações de estilo */
 
     .text-subscribe-button {
@@ -131,21 +144,22 @@ ul {
         cursor: pointer;
       }
     
-    .container {
-        max-width: 100%;
-    }
+    
 
     .corner-image {
         position: fixed; 
         right: -10%;
+        border: #ad215e 2px solid;
     }
     
     .container2 {
         max-width: 100%;
+        border: #ad215e 2px solid;
     }
 
     .corner-image2 {
         position: fixed;
-        top: 45%
+        top: 45%;
+        border: #ad215e 2px solid;
     }
 }
