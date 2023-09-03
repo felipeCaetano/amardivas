@@ -55,9 +55,10 @@
     transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
 }
 
-@media (max-width: 700px) {
+@media (max-width: 400px) {
     .text-subscribe-button-XL, .text-subscribe-button {
         font-size: 3.001464128843338vh;
         max-width: 70%;
         max-height: 17.819967266775777vh;
+}
 }
