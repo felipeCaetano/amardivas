@@ -158,57 +158,67 @@ footer .direitos {
     color: #ccc;
 }
 
-@media (max-width: 800px) {
-    .background-image {
-        background-image: url(../images/Fundo-Mobile.png);
-        background-size: 100% auto;
+@media (max-width: 680px) {
+    body {
+        font-size: 22px;
     }
 
-    .circle-logo {
-        max-width: 130px;
-        max-height: 130px;
+    header {
+        max-width: 100%;
+        margin: 0vh 5vh; /* Ajuste as margens conforme necessário */
+        margin-bottom: auto;
     }
 
-    .logo {
-        width: 250px;
-        height: 90px;
+    .logo{
+        width: 150px;
+        height: fit-content;
+        margin-top: 4vh;
     }
+    /* Outras alterações de estilo */
 
-    .round-buttons {
-        position: absolute;
-        display: inline;
-        left: 10px;
-        margin-left: 0px;
-        /*padding: 20px 20px;
-        margin-top: 50px;
-        margin-bottom: 50px;*/
-    }
-
-    .text-section{
-        position: absolute;
-        right: 0px;
-        top: 20px;
-        width: 220px;
-        border: 3px solid #73AD21;
-        padding: 5px;
-        font-size: medium;
-        margin-top: 0px;
-    }
-
-    .text-subscribe-button{
-        position: relative;
-        left: 0px;
-        top: 350px;
-
-        max-height: 15vh;
-        max-width: 150vw;
-        width: 100%;
-        border-radius: 20px;
-        background-color: #1d664b;
-        color: #d1d1ff;
+    .text-subscribe-button {
+        /*align-self: center;*/
+        max-width: 60%;
+        max-height:100%;
+        background-color: #f5eadf;
+        color: #d08b67;
         border: none;
+        margin-top: 4vh;
+        font-size:100%;
+        cursor: pointer;
+      }
+    
+
+    .container {
+        max-width: 100%;
+        
+    }
+
+    .corner-image {
+        position: fixed; 
+        right: -10%;
+       
+    }
+    
+    .container2 {
+        max-width: 100%;
+    }
+
+    .corner-image2 {
+        position: fixed;
+        top: 45%
+    }
+}
+
+@media (max-width: 576px) {
+    /* Adjustments for screens up to 576px (extra small devices) */
+    .col-md-2,
+    .col-md-4 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo {
         margin-top: 20px;
-        font-size: larger;
-        font-family: Noto Sans, sans-serif;
     }
 }
