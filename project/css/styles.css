@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Noto+Sans:wght@500&display=swap');
+
 html,
 body {
-    height: 100vh;
     overflow-x: hidden;
     font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
     padding: 0;
-    margin: auto;
+    background-image: url(../images/Fundo.png);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0, auto;
 }
 
 .header {
@@ -12,20 +18,26 @@ body {
     padding: 0px;
 }
 
+/* .logo {
+    width:33vw;
+    height: 33vh;
+} */
+
 .background-image {
-    background-image: url(../images/Fundo.png);
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    gap: 24px;
 }
 
 .background-image .container {
     max-width: 90%;
 }
 
-.logo {
-    width: 22.620790629575403vw;
-    height: 14.566284779050736vh;
+.round-buttons {
+    content: none;
 }
 
 .round-button {
@@ -44,9 +56,21 @@ body {
     display: block;
 }
 
+.text-section {
+    margin-top: 52px;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: larger;
+}
+
 .colored-word {
     color: #ba5c3f;
     /* Cor vermelha */
+}
+
+.circle-logo {
+    max-width: 25.256222547584187vw;
+    max-height: 25.256222547584187vh;
 }
 
 .text-subscribe-button {
@@ -61,19 +85,6 @@ body {
     font-size: 3.001464128843338vw;
     font-family: Noto Sans, sans-serif;
 }
-
-.circle-logo {
-    max-width: 25.256222547584187vw;
-    max-height: 25.256222547584187vh;
-}
-
-.step {
-    border-top: 1px solid #ffe0e0;
-    margin-top: 0px;
-    padding-top: 10px;
-    text-align: center;
-}
-
 
 .footer {
     background-color: #333332;
@@ -117,17 +128,6 @@ body {
     padding: 8px 29px;
     position: relative;
     bottom: 35px;
-}
-
-.round-buttons {
-    content: none;
-}
-
-.text-section {
-    margin-top: 52px;
-    color: white;
-    font-family: "Noto Sans", sans-serif;
-    font-size: larger;
 }
 
 .footer-round-button img {
