@@ -4,7 +4,7 @@ html,
 body {
     overflow-x: hidden;
     font-family: "Noto Sans", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     padding: 0;
     background-image: url(../images/Fundo.png);
     background-size:cover;
@@ -27,30 +27,33 @@ body {
     display: flex;
     flex-flow: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 24px;
-    gap: 24px;
+    justify-content: flex-start;
+    padding: 1.3333rem;
+    gap:  1.3333rem;
 }
 
-.background-image .container {
-    max-width: 90%;
+h1 {
+    font-family: "Fauna", sans-serif;
+    font-size: 2.15rem;
 }
 
 .round-buttons {
-    content: none;
+    display: flex;
+    width: 15%;
+    height: 40%;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
 }
 
 .round-button {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 100%;
     margin: 0 0px;
-    margin-bottom: 10px;
 }
 
 .round-button img {
-    max-width: 100px;
-    max-height: 100px;
+    width: 70%;
+    height: 70%;
     border-radius: 50%;
     margin: auto;
     display: block;
@@ -61,49 +64,70 @@ body {
     color: white;
     font-family: "Noto Sans", sans-serif;
     font-size: larger;
+    width: 45%;
 }
 
 .colored-word {
     color: #ba5c3f;
-    /* Cor vermelha */
 }
 
 .circle-logo {
-    max-width: 25.256222547584187vw;
-    max-height: 25.256222547584187vh;
+    max-width: 50vw;
+    max-height: 50vh;
 }
 
 .text-subscribe-button {
-    max-height: 9.819967266775777vh;
-    max-width: 30.307467057101025vw;
+    max-height: 5.3125rem;
+    max-width: 31.25vw;
     width: 100%;
     border-radius: 20px;
     background-color: #1d664b;
     color: #d1d1ff;
     border: none;
-    margin-top: 20px;
-    font-size: 3.001464128843338vw;
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+    margin-left: 15rem;
+    font-size: 3.001464128843338rem;
     font-family: Noto Sans, sans-serif;
 }
 
-.footer {
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: center;
+    gap: 20px 30px;
+
     background-color: #333332;
-    padding: 10px 10px;
-    margin-top: 0px;
+    padding: .75rem;
     text-align: left;
-    height: 35vh;
+    margin: 0 auto;
 }
 
 .footer-logo {
-    width: 120px;
-    margin-bottom: 115px;
-    margin-top: 0px;
-    padding: 1px;
+    width: 10%;
+    height: 20%;
+}
+
+.email {
+    justify-content: space-around;
+    color: #ccc;
+    flex-flow: column;
+    font-size: 12px;
+    line-height: .25rem;
+}
+
+h3 {
+    color: white; 
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 .rounded-input {
     background-color: #242329;
-    border-radius: 15px;
+    border-radius: 1rem;
     border: 1px solid #ccc;
     padding: 8px;
     max-width: 350px;
@@ -117,17 +141,18 @@ body {
 }
 
 .subscribe-button {
-    max-height: 50px;
-    max-width: 175px;
+    max-height: 3rem;
+    max-width: 30%;
     width: 100%;
     border-radius: 15px;
     background-color: #d1d1ff;
     color: #d08b67;
+    font-weight: 700;
     border: none;
     margin-left: 390px;
-    padding: 8px 29px;
+    padding: .5rem 2.5rem;
     position: relative;
-    bottom: 35px;
+    bottom: 2rem;
 }
 
 .footer-round-button img {
@@ -137,13 +162,6 @@ body {
     display: block;
 }
 
-.subscribe-section {
-    margin-top: 0px;
-    color: #ccc;
-    padding: 0px 10px 00px 50px;
-    font-size: 12px;
-}
-
 .redes-sociais {
     margin-top: 0px;
     color: #ccc;
@@ -151,28 +169,47 @@ body {
     font-size: 12px;
 }
 
-footer .direitos {
+.direitos {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-top: 2px;
-    font-size: 13px;
+    margin: 0 auto;
+    border-top: #ccc 2px solid;
+    font-size: 14px;
     color: #ccc;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 390px) {
     body {
-        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(../images/Fundo-Mobile.png);
+        background-size:cover;
+        background-position: center;
+        height: 100vh;
+        margin: 0, auto;
+        font-size: 14px;
     }
 
     header {
         max-width: 100%;
-        margin: 0vh 5vh; /* Ajuste as margens conforme necessário */
-        margin-bottom: auto;
+        margin: 0 auto; /* Ajuste as margens conforme necessário */
+        order: 0;
     }
 
     .logo{
-        width: 150px;
-        height: fit-content;
+        width: 180px;
+        height: 100px;
         margin-top: 4vh;
+        order: 0;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        order: 2;
     }
     /* Outras alterações de estilo */
 
@@ -186,27 +223,19 @@ footer .direitos {
         margin-top: 4vh;
         font-size:100%;
         cursor: pointer;
+        order: 3;
       }
     
+    .circle-logo {
+        order: -1;
+        position: relative;
+        width: 160px;
+        height: 160px;
 
-    .container {
-        max-width: 100%;
-        
     }
 
-    .corner-image {
-        position: fixed; 
-        right: -10%;
-       
-    }
-    
-    .container2 {
-        max-width: 100%;
-    }
-
-    .corner-image2 {
-        position: fixed;
-        top: 45%
+    .footer {
+        order: 4;
     }
 }
 
